@@ -1,0 +1,72 @@
+/* Mendefinisikan warna dari palet sebagai variabel */
+:root {
+    --color-1: #F0EEED;
+    --color-2: #609EA2;
+    --color-3: #C92C6D;
+    --color-4: #332C39;
+  }
+  
+  
+  
+  /* Mengatur style untuk elemen HTML */
+  html {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Mengatur style untuk elemen body */
+  body {
+    background-color: var(--color-1);
+    color: var(--color-3);
+  }
+  
+  /* Mengatur style untuk elemen h1 */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--color-4);
+  }
+  
+  /* Mengatur style untuk elemen h2 */
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-4);
+  }
+  
+  /* Mengatur style untuk elemen p */
+  p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Mengatur style untuk elemen button */
+  button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    font-weight: bold;
+  }
+  
+  /* Mengatur style untuk elemen div dengan class container */
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Mengatur style untuk elemen div dengan class box */
+  .box {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--color-2);
+  }
+  
